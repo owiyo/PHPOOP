@@ -23,26 +23,5 @@ class laptop {
    }
 }
   
-// buat objek dari class laptop (instansiasi)
-$laptop_anto = new laptop();
-  
-// isi property objek
-$laptop_anto->pemilik="Anto";
-$laptop_anto->merk="Asus";
-  
-  
-echo $laptop_anto->hidupkan_laptop();
-// hasil: "Hidupkan Laptop Asus punya Anto";
-  
-echo "<br />";
-  
-echo $laptop_anto->matikan_laptop();
-// hasil: "Matikan Laptop Asus punya Anto";
-  
-echo "<br />";
-  
-echo $laptop_anto->restart_laptop();
-// hasil:
-// "Matikan Laptop Asus punya Anto";
-// "Hidupkan Laptop Asus punya Anto";
+
 ?>
